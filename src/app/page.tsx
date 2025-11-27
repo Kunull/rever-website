@@ -16,7 +16,14 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <a href="#" className="text-white text-2xl font-bold">
-              <span className="font-title">REV<span className="flip-h">E</span><span className="flip-h">R</span></span>
+              <span className="font-title header-logo">
+                <span className="flip">
+                  RE\
+                </span>
+                <span className="flip-h">
+                  RE\
+                </span>
+              </span>
             </a>
             <div className="md:hidden">
               <button
@@ -69,7 +76,16 @@ export default function Home() {
         <MatrixBackground className="absolute inset-0 w-full h-full" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center py-16">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6"><span className="font-title">REV<span className="flip-h">E</span><span className="flip-h">R</span></span></h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+              <span className="font-title hero-logo">
+                <span className="flip">
+                  RE\
+                </span>
+                <span className="flip-h">
+                  RE\
+                </span>
+              </span>
+            </h1>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
               Next-generation binary analysis and reverse engineering platform.
             </p>
