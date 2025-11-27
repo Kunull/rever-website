@@ -74,10 +74,12 @@
   font-family: 'VCR OSD Mono', monospace !important;
   letter-spacing: normal;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 .header-logo {
-  display: block;
+  display: grid;
+  line-height: 1;
 }
 
 .flip-h {
