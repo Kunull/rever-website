@@ -76,7 +76,9 @@
   text-transform: uppercase;
 }
 
-
+.header-logo {
+  display: block;
+}
 
 .flip-h {
   display: inline-block;
