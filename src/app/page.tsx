@@ -81,9 +81,9 @@ export default function Home() {
                 <span className="flip">
                   RE\
                 </span>
-                <span className="flip-h">
+                {/* <span className="flip-h">
                   RE\
-                </span>
+                </span> */}
               </span>
             </h1>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
